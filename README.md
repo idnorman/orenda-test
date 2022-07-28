@@ -16,7 +16,8 @@ Repo untuk hasil pengerjaan task premilinary test dari Orenda.
 ## Dokumentasi API
 
  - Membuat Users (Register/Create)
-	 Untuk membuat users dapat mengakses url dengan method:
+	 
+     Untuk membuat users dapat mengakses url dengan method:
      
 	 `POST` : http://url.domain/api/register
      
@@ -29,6 +30,7 @@ Repo untuk hasil pengerjaan task premilinary test dari Orenda.
 >      }
 
  - Menambahkan item ke koli
+     
      Untuk menambah item ke koli dapat mengakses url dengan method:
      
       `POST` : http://url.domain/api/putin
@@ -51,6 +53,7 @@ Repo untuk hasil pengerjaan task premilinary test dari Orenda.
 >      }
 
  - Mengurangi/menghapus item dari koli
+     
      Untuk mengurangi/menghapus item ke koli dapat mengakses url dengan method:
      
      `POST` : http://url.domain/api/takeout
@@ -73,6 +76,7 @@ Repo untuk hasil pengerjaan task premilinary test dari Orenda.
 >      }
 
  - Mengambil koli yang sama dari dua users berbeda
+     
      Untuk mengambil koli yang sama dari dua users berbeda dapat mengakses url dengan method:
      
       `GET` : http://url.domain/api/koli/common
