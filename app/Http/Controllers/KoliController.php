@@ -17,7 +17,7 @@ class KoliController extends Controller
 
     public function getCommon(Request $request)
     {
-        $data = $this->koliRepository->getCommon(json_decode($request->users, true));
+        $data = $this->koliRepository->getCommon(json_decode($request->user, true));
         
         return response()->json($data);
         
